@@ -7,4 +7,4 @@ RUN apt install -y vim tree man zsh
 
 RUN cp /var/tmp/files/guide/hidden/42/08/72/FixelHoover /root
 
-COPY uwsgi.ini $APP_HOME
+COPY . $APP_HOME
