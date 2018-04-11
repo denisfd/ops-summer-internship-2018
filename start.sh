@@ -1,2 +1,2 @@
-TAG=0.0.1
-docker run --name=internship -P --rm internship:${TAG}
+TAG=0.0.2
+docker run --name=macpaw -P --rm macpaw:${TAG}
